@@ -1,0 +1,51 @@
+.bg-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+}
+
+.title {
+  color: #0f172a;
+  font-family: lobster;
+}
+
+.language-list-container {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+}
+.repo-list-container {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.failure-img-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.failure-img {
+  width: 70%;
+}
+
+.failure-para {
+  color: #1e293b;
+  font-weight: bold;
+  font-size: 15px;
+  font-family: roboto;
+}
+
+@media screen and (min-width: 768px) {
+  .failure-img {
+    width: 40%;
+  }
+  .failure-para {
+    font-size: 30px;
+  }
+}

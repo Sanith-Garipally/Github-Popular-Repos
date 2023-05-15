@@ -1,0 +1,17 @@
+.language-btn {
+  background: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  color: #1e293b;
+  font-weight: bold;
+  font-size: 12px;
+  margin-right: 10px;
+  margin-bottom: 5px;
+}
+
+.active-btn {
+  color: #0284c7;
+  border: 1px solid #0284c7;
+  border-radius: 15px;
+}
